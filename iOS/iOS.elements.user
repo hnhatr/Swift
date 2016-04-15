@@ -1,0 +1,13 @@
+
+<Project xmlns='http://schemas.microsoft.com/developer/msbuild/2003'>
+    <PropertyGroup>
+        <BundleIdentifier>com.none.XYZ</BundleIdentifier>
+        <CodesignCertificateName>iPhone Developer: htr.nha@gmail.com (3BUU6XHH69)</CodesignCertificateName>
+        <CrossBoxDevice>MG-3GS</CrossBoxDevice>
+        <CrossBoxDeviceID>87f0d389bbc195996014cbe81a9c535a32484cea</CrossBoxDeviceID>
+        <CrossPlatform>True</CrossPlatform>
+        <DeploymentTargetVersion>6.1</DeploymentTargetVersion>
+        <ProvisioningProfile>57e41efb-5bdb-4ffd-afcf-38504d31b532</ProvisioningProfile>
+        <ProvisioningProfileName>iOS Team Provisioning Profile: com.none.XYZ</ProvisioningProfileName>
+    </PropertyGroup>
+</Project>

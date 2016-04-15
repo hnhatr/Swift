@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build" ToolsVersion="4.0">
+    <PropertyGroup>
+        <RootNamespace>iOS</RootNamespace>
+        <ProjectGuid>4F77495F-866B-41F0-9ADB-C47E7159B4A3</ProjectGuid>
+        <OutputType>executable</OutputType>
+        <AssemblyName>iOS</AssemblyName>
+        <AllowGlobals>False</AllowGlobals>
+        <AllowLegacyWith>False</AllowLegacyWith>
+        <AllowLegacyOutParams>False</AllowLegacyOutParams>
+        <AllowLegacyCreate>False</AllowLegacyCreate>
+        <AllowUnsafeCode>False</AllowUnsafeCode>
+        <Configuration Condition="'$(Configuration)' == ''">Release</Configuration>
+        <SDK>iOS</SDK>
+        <CreateAppBundle>True</CreateAppBundle>
+        <InfoPListFile>.\Resources\Info.plist</InfoPListFile>
+        <MinFrameworkVersionRequired>4.0</MinFrameworkVersionRequired>
+        <BundleIdentifier>com.none.XYZ</BundleIdentifier>
+        <DeploymentTargetVersion>6.1</DeploymentTargetVersion>
+        <CodesignCertificateName>iPhone Developer: htr.nha@gmail.com (3BUU6XHH69)</CodesignCertificateName>
+        <ProvisioningProfile>57e41efb-5bdb-4ffd-afcf-38504d31b532</ProvisioningProfile>
+        <ProvisioningProfileName>iOS Team Provisioning Profile: com.none.XYZ</ProvisioningProfileName>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+        <Optimize>false</Optimize>
+        <OutputPath>.\bin\Debug</OutputPath>
+        <DefineConstants>DEBUG;TRACE;</DefineConstants>
+        <GenerateDebugInfo>True</GenerateDebugInfo>
+        <EnableAsserts>True</EnableAsserts>
+        <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+        <CaptureConsoleOutput>False</CaptureConsoleOutput>
+        <WarnOnCaseMismatch>True</WarnOnCaseMismatch>
+        <DeploymentTargetVersion>6.1</DeploymentTargetVersion>
+        <BundleIdentifier>com.none.XYZ</BundleIdentifier>
+        <CodesignCertificateName>iPhone Developer: htr.nha@gmail.com (3BUU6XHH69)</CodesignCertificateName>
+        <ProvisioningProfile>57e41efb-5bdb-4ffd-afcf-38504d31b532</ProvisioningProfile>
+        <ProvisioningProfileName>iOS Team Provisioning Profile: com.none.XYZ</ProvisioningProfileName>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+        <Optimize>true</Optimize>
+        <OutputPath>.\bin\Release</OutputPath>
+        <GenerateDebugInfo>True</GenerateDebugInfo>
+        <GenerateDSym>True</GenerateDSym>
+        <EnableAsserts>False</EnableAsserts>
+        <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+        <CaptureConsoleOutput>False</CaptureConsoleOutput>
+        <WarnOnCaseMismatch>True</WarnOnCaseMismatch>
+        <CreateIPA>True</CreateIPA>
+        <DeploymentTargetVersion>6.1</DeploymentTargetVersion>
+        <BundleIdentifier>com.none.XYZ</BundleIdentifier>
+        <CodesignCertificateName>iPhone Developer: htr.nha@gmail.com (3BUU6XHH69)</CodesignCertificateName>
+        <ProvisioningProfile>57e41efb-5bdb-4ffd-afcf-38504d31b532</ProvisioningProfile>
+        <ProvisioningProfileName>iOS Team Provisioning Profile: com.none.XYZ</ProvisioningProfileName>
+    </PropertyGroup>
+    <ItemGroup>
+        <Reference Include="CoreGraphics"/>
+        <Reference Include="Foundation"/>
+        <Reference Include="UIKit"/>
+        <Reference Include="rtl"/>
+        <Reference Include="libNougat"/>
+        <Reference Include="libSwift"/>
+    </ItemGroup>
+    <ItemGroup>
+        <Compile Include="AppDelegate.swift"/>
+        <Compile Include="RootViewController.swift"/>
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="Resources\Info.plist"/>
+        <Storyboard Include="Resources\Main.storyboard"/>
+        <AssetCatalog Include="Resources\Images.xcassets">
+            <AppIcon>AppIcon</AppIcon>
+        </AssetCatalog>
+        <Xib Include="Resources\LaunchScreen.xib"/>
+    </ItemGroup>
+    <Import Project="$(MSBuildExtensionsPath)\RemObjects Software\Elements\RemObjects.Elements.Nougat.targets"/>
+    <Import Project="..\Shared\Shared.projitems" Label="Shared"/>
+</Project>

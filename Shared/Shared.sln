@@ -1,0 +1,18 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# RemObjects Fire
+Project("{656346D9-4656-40DA-A068-22D5425D4639}") = "Shared", "Shared.elements", "{6A80E83F-B383-4C11-BB2B-D148474DF545}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AnyCPU = Debug|AnyCPU
+		Release|AnyCPU = Release|AnyCPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A80E83F-B383-4C11-BB2B-D148474DF545}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{6A80E83F-B383-4C11-BB2B-D148474DF545}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

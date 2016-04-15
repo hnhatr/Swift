@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>6A80E83F-B383-4C11-BB2B-D148474DF545</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup>
+	<RootNamespace>Shared</RootNamespace>
+  </PropertyGroup>
+  <Import Project="Shared.projitems" Label="Shared" />
+  <Import Project="$(MSBuildExtensionsPath)\RemObjects Software\Elements\RemObjects.Elements.SharedProject.targets" />
+  <PropertyGroup>
+    <PreBuildEvent />
+  </PropertyGroup>
+</Project>

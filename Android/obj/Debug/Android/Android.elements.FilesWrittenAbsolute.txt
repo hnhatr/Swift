@@ -1,0 +1,5 @@
+/Users/big0/Documents/Android/obj/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.pas
+/Users/big0/Documents/Android/bin/Debug/org.me.Android.jar
+/Users/big0/Documents/Android/obj/Debug/Android/org.me.Android.jar
+/Users/big0/Documents/Android/bin/Debug/swift.jar
+/Users/big0/Documents/Android/bin/Debug/cooper.jar
