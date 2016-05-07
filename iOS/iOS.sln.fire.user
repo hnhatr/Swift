@@ -4,6 +4,8 @@
 <dict>
 	<key>DebugPaneActiveTab</key>
 	<real>0.0</real>
+	<key>FolderExpanded_iOS_file:///Users/big0/Desktop/Swift/iOS/iOS.elements_file:///Users/big0/Desktop/Swift/iOS/</key>
+	<true/>
 	<key>FolderExpanded_iOS_file:///Users/big0/Documents/iOS/iOS.elements_file:///Users/big0/Documents/iOS/</key>
 	<true/>
 	<key>NavigationPaneActiveTab</key>
@@ -11,6 +13,6 @@
 	<key>Properties</key>
 	<dict/>
 	<key>SelectedNode</key>
-	<string>file:///Users/big0/Documents/iOS/iOS.elements_file:///Users/big0/Documents/iOS/iOS.elements</string>
+	<string>file:///Users/big0/Desktop/Swift/iOS/iOS.elements_file:///Users/big0/Desktop/Swift/iOS/iOS.elements</string>
 </dict>
 </plist>

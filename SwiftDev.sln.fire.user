@@ -2,38 +2,34 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>ActiveProject</key>
-	<string>iOS</string>
 	<key>DebugPaneActiveTab</key>
 	<real>0.0</real>
 	<key>FolderExpanded_Android_file:///Users/big0/Desktop/Swift/Android/Android.elements_file:///Users/big0/Desktop/Swift/Android/</key>
 	<true/>
-	<key>FolderExpanded_Android_file:///Users/big0/Documents/Android/Android.elements_file:///Users/big0/Documents/Android/</key>
-	<true/>
 	<key>FolderExpanded_iOS_file:///Users/big0/Desktop/Swift/iOS/iOS.elements_file:///Users/big0/Desktop/Swift/iOS/</key>
 	<true/>
-	<key>FolderExpanded_iOS_file:///Users/big0/Documents/iOS/iOS.elements_file:///Users/big0/Documents/iOS/</key>
-	<true/>
+	<key>LastBuildStatusLabel</key>
+	<string>Last build was successful</string>
 	<key>NavigationPaneActiveTab</key>
 	<real>0.0</real>
 	<key>Properties</key>
 	<dict/>
 	<key>SelectedNode</key>
-	<string>file:///Users/big0/Desktop/Swift/Android/Android.elements_file:///Users/big0/Desktop/Swift/Android/Android.elements</string>
+	<string>/Users/big0/Desktop/Swift/SwiftDev.sln---BuildLog</string>
 	<key>ViewMetaData</key>
 	<dict>
-		<key>/Users/big0/Documents/Android/Android.sln---BuildLog</key>
+		<key>/Users/big0/Desktop/Swift/SwiftDev.sln---BuildLog</key>
 		<dict>
 			<key>CursorX</key>
-			<integer>32</integer>
+			<integer>9</integer>
 			<key>CursorY</key>
-			<integer>307</integer>
+			<integer>157</integer>
 			<key>ScrollX</key>
 			<real>0.0</real>
 			<key>ScrollY</key>
-			<real>4754</real>
+			<real>2409</real>
 			<key>ScrolledToBottom</key>
-			<true/>
+			<false/>
 			<key>SelectionCursorUndecided</key>
 			<false/>
 			<key>SelectionEndColumn</key>
@@ -47,16 +43,16 @@
 			<key>SelectionStartLine</key>
 			<integer>-1</integer>
 		</dict>
-		<key>file:///Users/big0/Documents/iOS/iOS.elements_file:///Users/big0/Documents/iOS/AppDelegate.swift</key>
+		<key>file:///Users/big0/Desktop/Swift/iOS/iOS.elements_file:///Users/big0/Desktop/Swift/iOS/AppDelegate.swift</key>
 		<dict>
 			<key>CursorX</key>
-			<integer>0</integer>
+			<integer>59</integer>
 			<key>CursorY</key>
-			<integer>0</integer>
+			<integer>11</integer>
 			<key>ScrollX</key>
 			<real>0.0</real>
 			<key>ScrollY</key>
-			<real>18</real>
+			<real>15</real>
 			<key>SelectionCursorUndecided</key>
 			<false/>
 			<key>SelectionEndColumn</key>
@@ -64,7 +60,7 @@
 			<key>SelectionEndLine</key>
 			<integer>0</integer>
 			<key>SelectionIsLinear</key>
-			<false/>
+			<true/>
 			<key>SelectionStartColumn</key>
 			<integer>0</integer>
 			<key>SelectionStartLine</key>
@@ -72,12 +68,12 @@
 		</dict>
 	</dict>
 	<key>Window_Height</key>
-	<real>709</real>
+	<real>730</real>
 	<key>Window_Width</key>
-	<real>1222</real>
+	<real>1279</real>
 	<key>Window_X</key>
-	<real>58</real>
+	<real>76</real>
 	<key>Window_Y</key>
-	<real>218</real>
+	<real>0.0</real>
 </dict>
 </plist>

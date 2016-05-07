@@ -1,0 +1,7 @@
+
+<Project xmlns='http://schemas.microsoft.com/developer/msbuild/2003'>
+    <PropertyGroup>
+        <CrossBoxDevice>Android Device</CrossBoxDevice>
+        <CrossBoxDeviceID>Generic Android Device</CrossBoxDeviceID>
+    </PropertyGroup>
+</Project>

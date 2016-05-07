@@ -1,3 +1,6 @@
 /Users/big0/Documents/iOS/obj/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.pas
 /Users/big0/Documents/iOS/bin/Debug/iOS/iOS
 /Users/big0/Documents/iOS/obj/Debug/iOS/iOS
+/Users/big0/Desktop/Swift/iOS/obj/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.pas
+/Users/big0/Desktop/Swift/iOS/bin/Debug/iOS/iOS
+/Users/big0/Desktop/Swift/iOS/obj/Debug/iOS/iOS
